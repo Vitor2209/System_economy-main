@@ -1,60 +1,66 @@
-📌 Sobre o Projeto
+✅ README.md — System_economy (Frontend)
 
-System_economy é um sistema de gestão financeira com foco em simplicidade, visual limpo e indicadores econômicos úteis.
+Pronto para copiar e colar no GitHub
 
-Este repositório contém apenas o frontend, desenvolvido em React + Tailwind CSS, responsável por consumir a API do backend escrita em Python (FastAPI, Django ou Flask — ajusta conforme usas).
+# 📊 System_economy — Frontend
 
-O objetivo é permitir que o usuário:
+Sistema de controle financeiro desenvolvido para estudos, com foco em organização, visual moderno e integração com um backend Python.  
+Este repositório contém exclusivamente o **frontend**, criado com **React + JavaScript** e estilizado com **Tailwind CSS**.
 
-Registre suas receitas e despesas
+---
 
-Visualize gráficos e relatórios
+## 🚀 Tecnologias Utilizadas
 
-Controle suas finanças pessoais de forma simples
+Distribuição real com base nos dados do GitHub:
 
-Tenha um painel moderno, rápido e responsivo
+- **JavaScript — 92.9%**  
+  Utilizado para toda a lógica do React e consumo da API.
 
-✨ Funcionalidades (atuais e planejadas)
+- **HTML — 4.2%**  
+  Estrutura base da aplicação via `public/index.html`.
 
-📁 CRUD de transações (receitas e despesas)
+- **CSS — 1.7%**  
+  Estilização estruturada com **Tailwind CSS**.
 
-🗃️ Categorias e tags
+- **Python — 1%**  
+  Utilizado somente no backend do projeto (API consumida pelo frontend).
 
-🔍 Filtro por data / categoria
+---
 
-📊 Dashboard com gráficos (entradas x saídas)
+## 🎯 Objetivo do Projeto
 
-🔐 Login e autenticação via backend Python
+O **System_economy** tem como finalidade:
 
-⚡ Interface moderna feita com Tailwind
+- Registrar receitas e despesas  
+- Organizar categorias e transações  
+- Exibir dados financeiros de forma simples e clara  
+- Servir como base de estudos para frontend + backend  
 
-📱 Layout totalmente responsivo
+O foco principal é aprendizado de:
+- React + Componentização  
+- Tailwind CSS  
+- Integração com APIs  
+- Estruturação de projetos modernos
 
-🛠️ Tecnologias Utilizadas
-Frontend
+---
 
-React (Create React App)
+## 📚 Funcionalidades (atuais e planejadas)
 
-Tailwind CSS
+- [ ] Tela de dashboard financeira  
+- [ ] Listagem de transações  
+- [ ] Cadastro de receitas e despesas  
+- [ ] Integração com API Python  
+- [ ] Gráficos de entrada e saída  
+- [ ] Sistema de login e autenticação  
+- [ ] Interface responsiva com Tailwind CSS  
 
-Axios (consumir API Python)
+---
 
-React Router (se tiver navegação)
+## 🛠️ Como Rodar o Projeto Localmente
 
-Recharts / Chart.js (gráficos do dashboard)
+### 1️⃣ Clonar o repositório
 
-Backend (consumido pelo frontend)
-
-Python
-
-FastAPI / Django / Flask (confirma qual estás usando para personalizar)
-
-Banco de dados: PostgreSQL / MySQL / SQLite
-
-Autenticação JWT (recomendado)
-
-🚀 Como Rodar o Frontend
-1️⃣ Clonar o repositório
+```bash
 git clone https://github.com/Vitor2209/System_economy.git
 cd System_economy/frontend
 
@@ -63,80 +69,51 @@ npm install
 # ou
 yarn install
 
-3️⃣ Rodar o projeto
+3️⃣ Rodar o servidor
 npm start
 # ou
 yarn start
 
 
-Acesse no navegador:
+A aplicação estará disponível em:
+
 👉 http://localhost:3000
 
-🔧 Configuração da API (Python Backend)
+🔗 Integração com Backend Python
 
-No arquivo onde faz a conexão com a API (ex: services/api.js):
+A API deve estar rodando localmente (FastAPI, Flask ou Django).
+No arquivo onde a API é configurada, defina o endereço base:
 
-import axios from "axios";
-
-export const api = axios.create({
-  baseURL: "http://localhost:8000/api", // porta do backend Python
-});
+baseURL: "http://localhost:8000"
 
 
-Ajuste conforme tua API real (FastAPI normalmente roda em 8000).
+Assim o frontend se conecta ao backend sem erros.
 
-🗂 Estrutura do projeto
+📂 Estrutura Geral do Projeto
 frontend/
 ├── public/
 ├── src/
-│   ├── components/        # Componentes React
-│   ├── pages/             # Telas principais
-│   ├── services/          # Conexão com API Python
-│   ├── hooks/             # Hooks personalizados
-│   ├── styles/            # Configurações Tailwind
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── hooks/
 │   ├── App.js
 │   └── index.js
 ├── tailwind.config.js
 └── package.json
 
-📊 Dashboard (exemplo das futuras seções)
-
-Total de receitas / despesas
-
-Gráfico comparativo mensal
-
-Lista de transações filtrável
-
-Indicadores: saldo atual, média por categoria etc.
-
-📈 Roadmap
-
- Criar layout completo com Tailwind
-
- Conectar API Python real
-
- Criar sistema de login
-
- Criar CRUD de transações
-
- Adicionar gráficos (Recharts ou Chart.js)
-
- Melhorar acessibilidade e SEO
-
- Deploy em Vercel (frontend) e Railway / Render (backend)
-
-🤝 Como Contribuir
-git checkout -b feat/nova-feature
-git commit -m "Minha nova funcionalidade"
-git push origin feat/nova-feature
-
-
-Depois abre um Pull Request.
-
-👤 Autor
+👨‍💻 Autor
 
 Vitor Melo
 GitHub: https://github.com/Vitor2209
 
 📄 Licença
-MIT License © 2025 Vitor Melo
+
+MIT License © 2025 — Vitor Melo
+
+
+---
+
+Posso adicionar:
+
+✅ Preview com prints  
